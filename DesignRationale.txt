@@ -1,0 +1,7 @@
+Design Rationale
+
+- simplicity
+- easily navigateable
+- mobile-friendly layout
+- accessible on all browsers
+- friendly to older browsers

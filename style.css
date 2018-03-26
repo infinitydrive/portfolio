@@ -1,0 +1,96 @@
+body {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background-color: lightgrey;
+}
+
+.center, h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    text-align: center;
+    font: Arial;
+    color: midnightblue;
+    list-style-type: none;
+}
+
+nav { 
+    text-align: center; 
+}
+
+ul { 
+    display: inline-block; 
+    text-align: left; 
+    font: Arial;
+    list-style-type: none;
+    margin-right: 3%;
+}
+
+p {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: auto;
+    text-align: left;
+    font-family: Arial;
+}
+
+.wrapper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    margin-left: 24%;
+}
+
+#menu {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    width: 0;
+    margin-top: -2.5em;
+    font-family: Arial;
+}
+
+form {
+    background-color: white;
+    width: 25%;
+    margin: auto;
+    padding: 4%;
+}
+form input {
+    display: block;
+    width: 100%;
+    height: 150px;
+    text-align: top;
+    background-color: #eee;
+
+}
+
+form input:focus {
+    transition: background 0.5s, border 0.5s;
+    border-bottom: 2px solid #a8edea;
+    background-color: white
+
+}
+
+form button {
+    display: block;
+    width: 25%;
+    background-image: linear-gradient(to right, #9face6 0%, grey 100%);
+    padding: 10px;
+    border: 0;
+    color: white;
+    font-size: 15px; 
+}
+
+@media (max-width: 900px) {
+    form {
+        width: 90%;
+    }
+}
